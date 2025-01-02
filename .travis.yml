@@ -7,6 +7,6 @@ script:
   - "npm run test:nowatch"
 
 deploy:
-  provide: heroku
+  provider: heroku
   api_key:
     secure: $HEROKU_TOKEN
