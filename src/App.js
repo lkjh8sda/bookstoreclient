@@ -7,7 +7,7 @@ import axios from 'axios';
 function App() {
 
   axios(`${baseUrl}/api/v1/books`).then(books => {
-    console.log("{baseUrl} : " `${baseUrl}`);
+    console.log(`{baseUrl}: ${baseUrl}`);
     console.log(books);
   })
 
